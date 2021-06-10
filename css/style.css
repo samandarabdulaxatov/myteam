@@ -1,0 +1,275 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+::before,
+::after{
+  box-sizing: inherit;
+}
+
+img{
+  height: 100%;
+}
+
+body {
+  font-family: "Livvic", "New Times Roman", serif;
+}
+
+.container {
+  max-width: 1150px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.site-header {
+  padding-top: 77px;
+  padding-bottom: 77px;
+  background-color: #014E56;
+}
+
+.site-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.site-nav__list {
+  display: flex ;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.site-nav__item {
+
+}
+
+
+
+.site-nav__link {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-left: 40px;
+
+}
+
+.home {
+  margin-left: 80px;
+}
+
+.site-nav__link:hover {
+  color: #F67E7E;
+  transition: color 0.4s ease;
+}
+
+.contact {
+  padding: 9px 33px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-left: auto;
+  border: 2px solid #FFFFFF;
+  border-radius: 22px;
+}
+
+.contact:hover {
+  background-color
+  : #FFFFFF;
+  color: #002529;
+  transition: 0.4s ease;
+}
+
+.site-hero {
+  background-color: #014E56;
+}
+
+.site-hero {
+  background-image: url("../img/hero-left-bgimg.svg"), url("../img/hero-bottom-bgimg.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% + -767px) 55px, calc(50% + 350px) 410px;
+}
+
+.site-hero__content {
+  width: 1110px;
+  padding-top: 56px;
+  padding-bottom: 250px;
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.site-hero--first__div {
+  width: 635px;
+}
+
+.site-hero--second__div {
+  width: 445px;
+}
+
+.site-hero__title {
+  padding: 0;
+  margin: 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 100px;
+  color: #FFFFFF;
+
+}
+
+.site-hero__span {
+  color: #F67E7E;
+}
+
+.site-hero__text {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.site-hero__text::before {
+  width: 50px;
+  height: 4px;
+  display: block;
+  content: "";
+  background-color: #79C8C7;
+  margin-bottom: 80px;
+}
+
+
+
+.site-feature {
+  background-color: #012F34;
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.feature-content {
+  width: 445px;
+}
+
+.feature-title {
+  position: relative;
+  margin: 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  color: #FFFFFF;
+}
+
+.feature-title::before {
+  position: absolute;
+  left: 0;
+  top: -54px;
+  width: 50px;
+  height: 4px;
+  content: "";
+  display: block;
+  background-color: #F67E7E;
+  margin-bottom: 54px;
+}
+
+.desc {
+  width: 540px;
+}
+
+.feature__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.feature-small__title {
+  padding: 0;
+  margin: 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: #F67E7E;
+
+}
+
+.feature-small__text {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  opacity: 0.8;
+}
+
+.feature-expriend__item {
+  display: flex;
+}
+
+.feature-easy__item {
+  display: flex;
+}
+
+.feature-enhancand__item {
+  display: flex;
+}
+
+.feature__item {
+  margin-bottom: 30px;
+}
+
+.feature__item::before{
+  display: block;
+  width: 72px;
+  margin-right: 23px;
+  height: 72px;
+  display: block;
+  content: "";
+  background-repeat: no-repeat;
+}
+
+.feature-expriend__item::before {
+  background-image: url("../img/boy.svg");
+}
+
+.feature-expriend__item div {
+  width: 445px;
+}
+
+.feature-easy__item::before {
+  background-image: url("../img/setting.svg");
+}
+
+.feature-easy__item div {
+  width: 445px;
+}
+
+.feature-enhancand__item::before {
+  background-image: url("../img/img.svg");
+}
+
+.feature-enhancand__item div {
+  width: 445px;
+}
