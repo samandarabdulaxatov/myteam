@@ -135,7 +135,7 @@ body {
   background-image: url("../img/about-green-img.svg"),
     url("../img/delivering-bgimg.svg");
   background-repeat: no-repeat;
-  background-position: calc(50% + -750px) top,
+  background-position: calc(50% + -760px) top,
     calc(50% + 690px) bottom;
   padding-top: 140px;
   padding-bottom: 168px;
@@ -318,7 +318,7 @@ body {
   background-color: #012F34;
   background-image: url("../img/about-hero-img.svg");
   background-repeat: no-repeat;
-  background-position: calc(50% + -745px) top;
+  background-position: calc(50% + -660px) top;
   padding-top: 140px;
   padding-bottom: 140px;
 
