@@ -62,12 +62,6 @@ body {
   margin: 0;
 }
 
-.site-nav__item {
-
-}
-
-
-
 .site-nav__link {
   font-style: normal;
   font-weight: 600;
@@ -306,7 +300,7 @@ body {
 .delivering-section {
   background-image: url("../img/delivering-bgimg.svg"),
     url("../img/delivering-bottom-bgimg.svg");
-  background-position: calc(0% + -10px) 0px,
+  background-position: calc(50% + -690px) 0px,
     calc(50% + 660px) 640px;
   background-repeat: no-repeat;
 }
